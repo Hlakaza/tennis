@@ -1,6 +1,6 @@
-      
-   var game_width = 450;  // 500		
-   var game_height = 536;	 //600	
+         
+   var game_width = 425;  // 500		
+   var game_height = 640;	 //600	
     
     var game = new Phaser.Game(game_width, game_height, Phaser.AUTO, 'phaser-game', { preload: preload, create: create, update: update }),
 				playerBet,
