@@ -16,7 +16,7 @@ window.onload = function () {
 		computerBetInitPosY = 40,
 		computerBetSpeed = 250,
 		ball,
-		ballSpeed = 300,
+		ballSpeed = isMobile ? 500 : 400,
 		ballReleased = false;
 
 	function releaseBall() {

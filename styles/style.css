@@ -11,6 +11,7 @@ canvas {
   background-image: url('../assets/Tennis_Background.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  cursor: pointer;
 } 
 
  #phaser-game {
